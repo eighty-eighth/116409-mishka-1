@@ -1,0 +1,31 @@
+.form-order {
+  &__title {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: $color-downy;
+  }
+
+  &__label {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    color: $color-black;
+  }
+
+  &__text {
+    font-size: 19px;
+    line-height: 18px;
+    color: $color-tundora;
+  }
+
+  &__note {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__button {
+    @include font-button(17px, 16px);
+  }
+}

@@ -1,0 +1,14 @@
+.production {
+  &__title {
+    @include h2-title(17px, 24px);
+  }
+
+  &__info {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  &__button-to-order {
+    @include font-button(17px, 16px);
+  }
+}

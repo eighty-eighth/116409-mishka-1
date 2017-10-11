@@ -1,0 +1,12 @@
+.features {
+  &__title {
+    @include h2-title;
+  }
+
+  &__item {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: $color-black;
+  }
+}

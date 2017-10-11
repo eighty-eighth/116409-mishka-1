@@ -1,0 +1,18 @@
+.promo-offers {
+  &__link {
+    padding: 30px 130px 30px 30px;
+
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    color: $color-white;
+
+    &--interior {
+      background-color: $color-downy;
+    }
+
+    &--toys {
+      background-color: $color-fountain;
+    }
+  }
+}

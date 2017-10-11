@@ -1,0 +1,12 @@
+.page-main {
+  &__title {
+    @include h1-title;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    background-color: $bg-seashell;
+
+    &--form {
+      color: #231f20;
+    }
+  }
+}

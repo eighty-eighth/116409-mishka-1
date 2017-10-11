@@ -1,0 +1,15 @@
+.contacts {
+  &__title {
+    @include h2-title(18px, 30px);
+  }
+
+  &__value {
+    &--link {
+        @include font-link;
+      }
+  }
+
+  &__button-feedback {
+    @include font-button;
+  }
+}

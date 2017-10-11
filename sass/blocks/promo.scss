@@ -1,0 +1,10 @@
+.promo {
+  background: url("../../img/hero-mobile@1x.jpg") no-repeat 0 0;
+
+  &__slogan {
+    @include h1-title;
+    padding-top: 75px;
+    padding-bottom: 120px;
+    color: #010000;
+  }
+}
