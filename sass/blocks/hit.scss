@@ -1,34 +1,32 @@
-.hit {
-  &__title {
-    margin-top: 30px;
+.hit__title {
+  margin-top: 30px;
 
-    @include h2-title;
-  }
+  @include h2-title;
+}
 
-  &__flag {
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 20px;
-    color: $color-downy;
-  }
+.hit__flag {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: $brand-color;
+}
 
-  &__description {
-    font-size: 15px;
-    line-height: 24px;
-  }
+.hit__description {
+  font-size: 15px;
+  line-height: 24px;
+}
 
-  &__list {
-    font-size: 15px;
-    line-height: 20px;
-  }
+.hit__list {
+  font-size: 15px;
+  line-height: 20px;
+}
 
-  &__price {
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 24px;
-  }
+.hit__price {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+}
 
-  &__button-to-order {
-    @include font-button(17px, 40px);
-  }
+.hit__order-button {
+  @include font-button(17px, 40px);
 }

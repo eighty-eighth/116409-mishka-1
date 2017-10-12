@@ -1,22 +1,20 @@
-.reviews {
-  &__title {
-    @include h2-title;
-  }
+.reviews__title {
+  @include h2-title;
+}
 
-  &__author-name {
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 24px;
-    color: $color-black;
-  }
+.reviews__author-name {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
+}
 
-  &__author-email {
-    font-size: 17px;
-    line-height: 30px;
-    color: $color-tundora;
-  }
+.reviews__author-email {
+  font-size: 17px;
+  line-height: 30px;
+  color: $textbrand-color;
+}
 
-  &__button-write {
-    @include font-button;
-  }
+.reviews__button-write {
+  @include font-button;
 }

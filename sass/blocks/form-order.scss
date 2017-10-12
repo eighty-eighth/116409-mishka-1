@@ -1,31 +1,29 @@
-.form-order {
-  &__title {
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 16px;
-    text-transform: uppercase;
-    color: $color-downy;
-  }
+.form-order__title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $brand-color;
+}
 
-  &__label {
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 18px;
-    color: $color-black;
-  }
+.form-order__label {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+}
 
-  &__text {
-    font-size: 19px;
-    line-height: 18px;
-    color: $color-tundora;
-  }
+.form-order__text {
+  font-size: 19px;
+  line-height: 18px;
+  color: $textbrand-color;
+}
 
-  &__note {
-    font-size: 14px;
-    line-height: 16px;
-  }
+.form-order__note {
+  font-size: 14px;
+  line-height: 16px;
+}
 
-  &__button {
-    @include font-button(17px, 16px);
-  }
+.form-order__button {
+  @include font-button(17px, 16px);
 }

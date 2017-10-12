@@ -1,12 +1,10 @@
-.copyright {
-  &__text {
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 18px;
-    color: $color-black;
-  }
+.copyright__text {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 18px;
+  color: #000000;
+}
 
-  &__link {
-    @include font-link;
-  }
+.copyright__link {
+  @include font-link;
 }
