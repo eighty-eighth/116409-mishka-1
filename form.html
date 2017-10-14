@@ -2,19 +2,20 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Каталог «Мишка»</title>
+    <title>Форма заказа «Мишка»</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
       <div class="page-header__wrapper">
         <a class="page-header__logo" href="index.html">
-          <img class="page-header__logo-image" src="http://placehold.it/320x80" width="320" height="80" alt="Логотип «Мишка»">
+          <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип «Мишка»">
         </a>
         <nav class="main-nav">
           <button class="main-nav__toggle" type="button">Открыть меню</button>
-          <ul class="main-nav__list main-nav">
+          <ul class="main-nav__list">
             <li class="main-nav__item">
-              <a class="main-nav__link" href="#">Каталог товаров</a>
+              <a class="main-nav__link" href="catalog.html">Каталог товаров</a>
             </li>
             <li class="main-nav__item">
               <a class="main-nav__link" href="#">Вязание на заказ</a>
@@ -29,8 +30,8 @@
         </nav>
       </div>
     </header>
-    <main class="main-page">
-      <h1 class="main-page__title">Вязание на заказ</h1>
+    <main class="page-main">
+      <h1 class="page-main__title page-main__title--form">Вязание на заказ</h1>
       <div class="order-form">
         <div class="order-form__wrapper">
           <p class="order-form__intro">Мы будем рады воплотить в жизнь ваши пожелания!
@@ -97,20 +98,20 @@
             </fieldset>
             <fieldset class="form-order__group">
               <label class="form-order__title" for="tel-field">Тел</label>
-              <input class="form-order__input form-order__input--tel" type="tel" name="tel" id="tel-field" placeholder="+7 XXX XX XX*">
+              <input class="form-order__text form-order__text--tel" type="tel" name="tel" id="tel-field" placeholder="+7 XXX XX XX*">
             </fieldset>
             <fieldset class="form-order__group">
               <label class="form-order__title" for="email-field">E-mail</label>
-              <input class="form-order__input form-order__input--email" type="email" name="email" id="email-field" placeholder="Ваш Email*">
+              <input class="form-order__text form-order__text--email" type="email" name="email" id="email-field" placeholder="Ваш Email*">
             </fieldset>
             <fieldset class="form-order__group">
               <label class="form-order__title" for="comment-field">Доп</label>
-              <textarea class="form-order__textarea" name="comment" id="comment-field" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+              <textarea class="form-order__text" name="comment" id="comment-field" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
             </fieldset>
             <p class="form-order__note">
               *Поля обязательны для заполнения
             </p>
-            <button class="button" type="submit" value="Отправить заказ">
+            <button class="form-order__button" type="submit">Отправить заказ</button>
           </form>
         </div>
       </div>

@@ -1,0 +1,11 @@
+.contacts__title {
+  @include h2-title(18px, 30px);
+}
+
+.contacts__value--link {
+  @include font-link;
+}
+
+.contacts__button-feedback {
+  @include font-button;
+}

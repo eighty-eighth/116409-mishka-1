@@ -1,0 +1,11 @@
+.page-main__title {
+  @include h1-title;
+
+  padding-top: 73px;
+  padding-bottom: 73px;
+  background-color: $bg-layer;
+
+  &--form {
+    color: #231f20;
+  }
+}

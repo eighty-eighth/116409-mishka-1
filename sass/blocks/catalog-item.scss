@@ -1,0 +1,19 @@
+.catalog-item__title {
+  @include h2-title(17px, 24px);
+}
+
+.catalog-item__link {
+  @include font-link;
+  border-bottom: none;
+}
+
+.catalog-item__info {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.catalog-item__price {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+}

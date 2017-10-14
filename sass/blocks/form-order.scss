@@ -1,0 +1,29 @@
+.form-order__title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $brand-color;
+}
+
+.form-order__label {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.form-order__text {
+  font-size: 19px;
+  line-height: 18px;
+  color: $textbrand-color;
+}
+
+.form-order__note {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form-order__button {
+  @include font-button(17px, 16px);
+}

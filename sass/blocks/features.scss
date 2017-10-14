@@ -1,0 +1,10 @@
+.features__title {
+  @include h2-title;
+}
+
+.features__item {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}

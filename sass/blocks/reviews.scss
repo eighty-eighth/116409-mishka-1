@@ -1,0 +1,20 @@
+.reviews__title {
+  @include h2-title;
+}
+
+.reviews__author-name {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.reviews__author-email {
+  font-size: 17px;
+  line-height: 30px;
+  color: $textbrand-color;
+}
+
+.reviews__button-write {
+  @include font-button;
+}

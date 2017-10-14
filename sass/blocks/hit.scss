@@ -1,0 +1,32 @@
+.hit__title {
+  margin-top: 30px;
+
+  @include h2-title;
+}
+
+.hit__flag {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: $brand-color;
+}
+
+.hit__description {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.hit__list {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.hit__price {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.hit__order-button {
+  @include font-button(17px, 40px);
+}
